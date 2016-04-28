@@ -1,0 +1,195 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Quinta Aplicacion</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/temasapp2.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/AA.png','imagenes/s1.2.jpg','imagenes/s2.1.jpg')">
+<div data-role="page" id="Principal" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+     <h1>Día de la tierra</h1>
+   </div>
+   <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+          <h1>¿Cúando se celebra?</h1>
+       <div>
+                  <p> El 22 de abril se celebra el Día Internacional de la Tierra. Se instauró para crear una conciencia común a los problemas medioambientales como la superpoblación, la producción de contaminación o la conservación de la biodiversidad.
+</p>
+       <br>
+         </div>
+    <div>
+        <!-- Start WOWSlider.com -->
+<iframe src="visor/indexwow.html" style="width:1024px;height:232px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+ </div>
+  </div>
+    </div>
+     
+     <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+        <h1>Reflexión</h1>
+         <div>
+         <p>El planeta en el que vivimos siempre merecera que lo cuidemos y lo valoremos,solo basta con ver lo inmenso y grande que es y las maravillas que vemos en sus paisajes y demas lugares que en el encontramos,todos podemos contribuir a cuidarlo pero debemos de siempre comenzar por nosotros y asi llevar la iniciativa hacia a otros es por eso que yo te invito a que tu y yo: ¡CUIDEMOS LA TIERRA!</p>       
+         <br>
+         </div>
+    <div>
+    <center>
+       <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('1','','imagenes/AA.png',1)"><img src="imagenes/A.jpg" width="150" height="150" id="1"></a></center></div>
+        <p>
+        <a href="https://www.youtube.com/watch?v=L-SAy2FA6bw">Te invito a ver el siguiente video click aquí</a>
+       </p>
+    </div>
+   
+    </div>
+
+ 
+    
+<div>
+    <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+    <li class="ui-first-child ui-last-child">
+    <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Historia</h2>
+     </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+      <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>¿Cómo celebrarlo?</h2>
+      </a>
+    </li>
+   <li class="ui-first-child ui-last-child">
+      <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Tener una mejor comunidad</h2>
+      </a>
+    </li>
+  </ul>
+</div>
+<div data-role="footer" align="center" data-theme="a">
+    <div>
+     <h4>Aplicación 5 "Dia de la tierra"</h4> 
+     <h4>Denilson Zepeda Alonso</h4>
+   </div>
+   <div>
+      <img src="imagenes/mdpi.png" width="46" height="46">
+   </div>
+  
+</div>
+</div>
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"data-back-btn-theme="a">
+    <h1>Historia</h1>
+    </div>
+   <div data-role="content" align="center">
+    <div>
+     <p>La primera manifestación tuvo lugar el 22 de abril de 1970, promovida por el senador y activista ambiental Gaylord Nelson, para la creación de una agencia ambiental. En esta convocatoria participaron dos mil universidades, diez mil escuelas (primarias y secundarias) y centenares de comunidades. La presión social tuvo sus logros y el gobierno de los Estados Unidos creó la Environmental Protection Agency (Agencia de Protección Ambiental) y una serie de leyes destinadas a la protección del medio ambiente.
+
+En 1972 se celebró la primera conferencia internacional sobre el medio ambiente. La Cumbre de la Tierra de Estocolmo, cuyo objetivo fue sensibilizar a los líderes mundiales sobre la magnitud de los problemas ambientales.</p>
+     <center>
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('2','','imagenes/s1.2.jpg',1)"><img src="imagenes/s1.jpg" width="150" height="150" id="2"></a></center> </div>
+   </div>
+<div data-role="footer" align="center" data-theme="a">
+    <div>
+     <h4>Aplicación 5 "Dia de la tierra"</h4> 
+     <h4>Denilson Zepeda Alonso</h4>
+   </div>
+   <div>
+      <img src="imagenes/mdpi.png" width="46" height="46">
+   </div>
+  </div>
+ </div>                                  
+
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"data-back-btn-theme="a">
+    <h1>¿Cómo celebrarlo?</h1>
+    </div>
+   <div data-role="content" align="center">
+    <div>
+     <p>  <em><strong>Comparte tu amor por la Tierra: </strong></em>Seguro algún miembro de tu familia es pequeño o que está en edad escolar. Llévalo al jardín o a un parque y muéstrale las maravillas que conoces de la naturaleza. Escarben en la Tierra, huelan las flores, observen insectos, escuchen los pájaros. Si las nuevas generaciones no aprenden a amar su planeta, muchas de las acciones que es necesario tomar para que las cosas cambien les parecerán innecesarias y lejanas. Nadie puede amar lo que no conoce.
+</p>
+<center>
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('3','','imagenes/s2.1.jpg',1)"><img src="imagenes/s2.jpg" width="150" height="150" id="3"></a></center> </div>
+   </div>
+ <div data-role="footer" align="center" data-theme="a">
+    <div>
+     <h4>Aplicación 5 "Dia de la tierra"</h4> 
+     <h4>Denilson Zepeda Alonso</h4>
+   </div>
+   <div>
+      <img src="imagenes/mdpi.png" width="46" height="46">
+   </div>
+  </div>
+ </div>           
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"data-back-btn-theme="a">
+    <h1>Tener una mejor comunidad</h1>
+    </div>
+   <div data-role="content" align="center">
+    <div>
+        <p>
+   1.-Poner mas botes de basura en las calles ya que mucha de las veces no se encuentra en donde tirar.
+    </p> 
+    <p>
+    2.-Barrer calles ya que muchas de las veces da un mal aspecto ver diferentes elementos de basura tirados
+    </p>
+    <p>
+    3.-Plantar mas arboles en zonas donde estan secas.
+    </p>
+    <p>
+    4.-Darle el cuidado a los arboles y no cortarlos.
+    </p>
+    <p>
+    Medidas que se pueden tomar hay muchas pero para eso siempre debe de haber una organizacion en mi colonia.
+    </p>
+
+     <img src="imagenes/lo.jpg" width="50%" height="50%">
+    </div>
+   </div>
+  <div data-role="footer" align="center" data-theme="a">
+    <div>
+     <h4>Aplicación 5 "Dia de la tierra"</h4> 
+     <h4>Denilson Zepeda Alonso</h4>
+   </div>
+   <div>
+      <img src="imagenes/mdpi.png" width="46" height="46">
+   </div>
+  </div>
+ </div>                                  
+
+</body>
+</html>
